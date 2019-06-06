@@ -1,0 +1,15 @@
+
+
+
+
+
+
+^(ls|file|cat|head|tail) -- line begining with ls, file, cat, head, or tail
+
+( \-?(\.|\.{3})?\/?\w*| index\.php)?$
+
+
+
+if(preg_match("/^(ls|file|cat|head|tail)( \-?(\.|\.{3})?\/?\w*| index\.php)?$/", $command))
+	^				 ^ 
+	returns true if $command matchs this regular expression
