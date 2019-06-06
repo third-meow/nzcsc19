@@ -1,0 +1,32 @@
+
+Done:
+	Chal 1
+	Chal 2
+	Chal 3
+	Chal 5
+	Chal 6
+	Chal 4
+
+Working on:
+	Chal 2 - bonus
+		xor whole program?
+		dissasemble?
+
+	Chal 4 - bonus
+		idek
+
+	Chal 6 - bonus
+		dissemble
+		fun notes:
+			FUNC0 
+			FUNC1 prints ... msg 
+			FUNC2 reads in key does strcmp
+				strcmp can be cracked by breaking at 0x8049687 and setting $eax to 0
+			FUNC3 runs FUNC0 over and over
+			FUNC4 may load password and compare ????
+
+			STRING4 is "failed"
+			STRING9 and STRING2 are printed at very end
+			STRING9 = "done"?
+
+
